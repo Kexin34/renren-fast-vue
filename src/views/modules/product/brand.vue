@@ -106,7 +106,7 @@
 
 <script>
 import AddOrUpdate from './brand-add-or-update'
-//import CategoryCascader from '../common/category-cascader'
+import CategoryCascader from '../common/category-cascader'
 export default {
   data () {
     return {
@@ -129,7 +129,7 @@ export default {
   },
   components: {
     AddOrUpdate,
-    //CategoryCascader
+    CategoryCascader
   },
   activated () {
     this.getDataList()
